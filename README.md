@@ -1,2 +1,2 @@
-# Enterprise-Computing-with-Java
+# Enterprise Computing with Java
 JHU course
