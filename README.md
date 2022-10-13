@@ -1,2 +1,2 @@
-# 784-SpringBoot-Enterprise Computing with Java
+# 784 SpringBoot Enterprise Computing with Java
 JHU course
