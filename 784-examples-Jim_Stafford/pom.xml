@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>info.ejava.examples.app</groupId>
+  <artifactId>app</artifactId>
+  <version>6.0.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>Application Root</name>
+  <description>This is the root project for topics relative to building
+      a core Spring Boot application.</description>
+  <url>https://jcs.ep.jhu.edu/ejava-springboot/app</url>
+  <distributionManagement>
+    <repository>
+      <id>ejava.repo</id>
+      <url>${repo.deploy.url}</url>
+    </repository>
+    <snapshotRepository>
+      <id>ejava.snapshot.repo</id>
+      <url>${repo.snapshot.deploy.url}</url>
+    </snapshotRepository>
+    <site>
+      <id>ejava.site</id>
+      <url>${site.deploy.url}/app</url>
+    </site>
+  </distributionManagement>
+  <modules>
+    <module>784-examples</module>
+  </modules>
+</project>
