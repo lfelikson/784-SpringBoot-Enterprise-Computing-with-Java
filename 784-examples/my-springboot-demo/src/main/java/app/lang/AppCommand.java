@@ -13,7 +13,7 @@ public class AppCommand implements CommandLineRunner {
     }
 
     public void run(String... args) throws Exception {        
-        myLang.getType("Pyton");
-        myLang.getVersion("9.8.7");
+        myLang.getType("Python");
+        myLang.getVersion("9.8.7.6.5.4");
     }
 }

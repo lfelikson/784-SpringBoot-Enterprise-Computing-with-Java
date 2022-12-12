@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="app.lang.AppTest" time="0.057" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="app.lang.AppTest" time="0.036" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/784-examples/lang-service/target/test-classes:/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/784-examples/lang-service/target/classes:/Users/leonidfelikson/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/leonidfelikson/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/784-examples/lang-api/target/lang-api-1.0.0-SNAPSHOT.jar:"/>
+    <property name="java.class.path" value="/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/784-examples/lang-service/target/test-classes:/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/784-examples/lang-service/target/classes:/Users/leonidfelikson/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/leonidfelikson/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/leonidfelikson/.m2/repository/app/lang/lang-api/1.0.0-SNAPSHOT/lang-api-1.0.0-SNAPSHOT.jar:"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://openjdk.java.net/"/>
@@ -16,10 +16,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.8.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/784-examples/lang-service/target/surefire/surefirebooter12534638789777471352.jar /Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/784-examples/lang-service/target/surefire 2022-11-15T18-52-20_918-jvmRun1 surefire11992292384259930893tmp surefire_17292397283668267883tmp"/>
+    <property name="sun.java.command" value="/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/784-examples/lang-service/target/surefire/surefirebooter11832784034833970148.jar /Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/784-examples/lang-service/target/surefire 2022-12-10T19-46-14_933-jvmRun1 surefire16089338394669401352tmp surefire_014913264050473019475tmp"/>
     <property name="http.nonProxyHosts" value="local, 169.254/16|*.local, 169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/784-examples/lang-service/target/test-classes:/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/784-examples/lang-service/target/classes:/Users/leonidfelikson/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/leonidfelikson/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/784-examples/lang-api/target/lang-api-1.0.0-SNAPSHOT.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/784-examples/lang-service/target/test-classes:/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/784-examples/lang-service/target/classes:/Users/leonidfelikson/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/leonidfelikson/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/leonidfelikson/.m2/repository/app/lang/lang-api/1.0.0-SNAPSHOT/lang-api-1.0.0-SNAPSHOT.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/leonidfelikson"/>
     <property name="user.language" value="en"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/784-examples/lang-service/target/surefire/surefirebooter12534638789777471352.jar"/>
+    <property name="surefire.real.class.path" value="/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/784-examples/lang-service/target/surefire/surefirebooter11832784034833970148.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local, 169.254/16|*.local, 169.254/16"/>
     <property name="java.runtime.version" value="11.0.8+10-LTS"/>
@@ -61,5 +61,5 @@
     <property name="java.class.version" value="55.0"/>
     <property name="socksNonProxyHosts" value="local, 169.254/16|*.local, 169.254/16"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="app.lang.AppTest" time="0.001"/>
+  <testcase name="shouldAnswerWithTrue" classname="app.lang.AppTest" time="0.002"/>
 </testsuite>

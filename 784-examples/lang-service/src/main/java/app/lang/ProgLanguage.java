@@ -7,8 +7,8 @@ class ProgLanguage implements Language {
 
 	private String myLang = null ;
 	
-	public ProgLanguage(String lang) {
-        lang = myLang;
+	public ProgLanguage( String lang) {
+        myLang = lang;
     }
 
   // implementation of abstract methods
@@ -18,6 +18,6 @@ class ProgLanguage implements Language {
   }
   @Override
   public void getVersion(String name) {
-    System.out.println("Version = " + name);
+    System.out.println("version = " + name);
   }
 }

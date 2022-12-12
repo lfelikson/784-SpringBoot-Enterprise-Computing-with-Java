@@ -16,7 +16,7 @@ public class SelfConfiguredApp {
     }
     
     @Bean
-    public Language laguage() {
+    public Language language() {
         return new ProgLanguage("Application @Bean says Hey");
     }
 }
