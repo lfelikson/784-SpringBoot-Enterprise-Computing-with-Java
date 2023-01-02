@@ -1,0 +1,13 @@
+/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/DI-Demo-With-Java/src/main/java/com/journaldev/java/dependencyinjection/consumer/Consumer.java
+/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/DI-Demo-With-Java/src/main/java/com/journaldev/java/dependencyinjection/injector/EmailServiceInjector.java
+/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/DI-Demo-With-Java/src/main/java/com/journaldev/java/legacy/EmailService.java
+/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/DI-Demo-With-Java/src/main/java/com/journaldev/java/legacy/MyLegacyTest.java
+/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/DI-Demo-With-Java/src/main/java/com/journaldev/java/legacy/MyApplication.java
+/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/DI-Demo-With-Java/src/main/java/com/journaldev/java/dependencyinjection/test/MyDIApplicationJUnitTest.java
+/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/DI-Demo-With-Java/src/main/java/com/journaldev/java/dependencyinjection/test/MyMessageDITest.java
+/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/DI-Demo-With-Java/src/main/java/com/journaldev/java/dependencyinjection/service/MessageService.java
+/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/DI-Demo-With-Java/src/main/java/com/journaldev/java/dependencyinjection/service/EmailServiceImpl.java
+/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/DI-Demo-With-Java/src/main/java/com/journaldev/java/dependencyinjection/injector/MessageServiceInjector.java
+/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/DI-Demo-With-Java/src/main/java/com/journaldev/java/dependencyinjection/injector/SMSServiceInjector.java
+/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/DI-Demo-With-Java/src/main/java/com/journaldev/java/dependencyinjection/service/SMSServiceImpl.java
+/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/DI-Demo-With-Java/src/main/java/com/journaldev/java/dependencyinjection/consumer/MyDIApplication.java

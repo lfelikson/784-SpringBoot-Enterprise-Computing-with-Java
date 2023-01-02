@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>app.demo</groupId>
+        <artifactId>DI-IOC-examples</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>application</artifactId>
+    <name>di-ioc-examples::bean factory example</name>
+    <description>
+      This project provides an example of a simple Spring Boot Application
+      configuring itself using a bean factory.
+    </description>
+
+    <dependencies>
+
+    <dependency>
+    <groupId>commons-logging</groupId>
+    <artifactId>commons-logging</artifactId>
+    <version>1.2</version>
+</dependency> 
+
+      <dependency>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-starter</artifactId>
+      </dependency>
+
+      <dependency>
+          <groupId>${project.groupId}</groupId>
+          <artifactId>service</artifactId>
+          <version>0.0.1-SNAPSHOT</version>
+
+      </dependency>
+    </dependencies>
+
+    <build>
+      <plugins>
+
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.0</version>
+      </plugin>
+
+        <plugin>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-maven-plugin</artifactId>
+          <executions>
+              <execution>
+                  <id>run-application</id>
+                  <phase>package</phase>
+                  <goals>
+                      <goal>run</goal>
+                  </goals>
+              </execution>
+          </executions>
+        </plugin>
+      </plugins>
+    </build>
+</project>
