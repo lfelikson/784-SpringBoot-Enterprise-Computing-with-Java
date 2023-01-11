@@ -1,0 +1,5 @@
+/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/SpringBeanAutowiring/src/main/java/com/journaldev/spring/autowiring/model/Employee.java
+/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/SpringBeanAutowiring/src/main/java/com/journaldev/spring/autowiring/service/EmployeeAutowiredByConstructorService.java
+/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/SpringBeanAutowiring/src/main/java/com/journaldev/spring/autowiring/service/EmployeeService.java
+/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/SpringBeanAutowiring/src/main/java/com/journaldev/spring/autowiring/service/EmployeeAutowiredByTypeService.java
+/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/SpringBeanAutowiring/src/main/java/com/journaldev/spring/autowiring/main/SpringMain.java

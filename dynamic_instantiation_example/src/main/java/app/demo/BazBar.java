@@ -1,7 +1,8 @@
 package app.demo;
 
 public class BazBar implements Bar {
+    @Override
     public void doSomething() {
-        // do baz stuff here...
+        System.out.println("I am BazBar");    
     }
 }

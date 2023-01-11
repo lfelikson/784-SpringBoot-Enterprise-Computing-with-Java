@@ -74,6 +74,15 @@
                    <mainClass>app.demo.NewInstanceDemo</mainClass>
                 </configuration>
             </execution>
+            <execution>
+            <id>second-execution</id>
+                <goals>
+                    <goal>java</goal>
+                </goals>
+                <configuration>
+                   <mainClass>app.demo.App_Test</mainClass>
+                </configuration>
+            </execution>
         </executions>
     </plugin>
 

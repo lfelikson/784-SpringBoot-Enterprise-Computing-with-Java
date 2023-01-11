@@ -7,3 +7,4 @@ app/container_injector/NotificationServiceInjector.class
 app/consumer/Consumer.class
 app/test/DITest.class
 app/service/NotificationService.class
+app/test/DITest_dynamic.class
