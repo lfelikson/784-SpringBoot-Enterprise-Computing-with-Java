@@ -27,7 +27,10 @@ public class SpringBootSimpleDemoApplication {
 
 	    var ctx = new AnnotationConfigApplicationContext();
         ctx.scan("app.demo.bean");
-        ctx.refresh();
+
+//		System.out.println("After ctx.scan executed ................................");
+        
+		ctx.refresh();
 
 			Customer customer = ctx.getBean(Customer.class);
 
@@ -35,10 +38,13 @@ public class SpringBootSimpleDemoApplication {
 		
 			System.out.println(user.getStudent().getName());
 
-			
 			Course course = ctx.getBean(Course.class);
 
 			System.out.println(course.register());
+
+//			Student student = ctx.getBean(Student.class);
+
+//			System.out.println("Here is student name = " + customer.getStudent().getName());
 				
 	}
 }
