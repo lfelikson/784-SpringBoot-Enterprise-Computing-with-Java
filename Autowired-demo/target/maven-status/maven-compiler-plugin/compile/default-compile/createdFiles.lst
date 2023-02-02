@@ -1,0 +1,5 @@
+app/demo/model/Student.class
+app/demo/service/StudentService.class
+app/demo/service/StudentAutowByConstService.class
+app/demo/service/StudentAutowByTypeService.class
+app/demo/Appdemo.class

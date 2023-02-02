@@ -1,0 +1,5 @@
+/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/Autowired-demo/src/main/java/app/demo/Appdemo.java
+/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/Autowired-demo/src/main/java/app/demo/model/Student.java
+/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/Autowired-demo/src/main/java/app/demo/service/StudentService.java
+/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/Autowired-demo/src/main/java/app/demo/service/StudentAutowByTypeService.java
+/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/Autowired-demo/src/main/java/app/demo/service/StudentAutowByConstService.java

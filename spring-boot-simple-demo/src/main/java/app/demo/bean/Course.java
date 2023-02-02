@@ -7,11 +7,11 @@ import org.springframework.stereotype.Component;
 public class Course {
 
 	public Course() {
-		System.out.println("Course Instance Created");
+		System.out.println("New course instance created !!!!!");
 	}
 
     public String register() {
-		System.out.println("You are registered !!!");
-		return "REGISTERED, THANKS!";
+		System.out.println("You are registered to new course !!!");
+		return "REGISTERED TO NEW COURSE, THANKS!";
     }
 }
