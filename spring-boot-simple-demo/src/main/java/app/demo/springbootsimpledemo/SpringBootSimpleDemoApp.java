@@ -28,10 +28,16 @@ public class SpringBootSimpleDemoApp {
 	// ApplicationContext ctx = new AnnotationConfigApplicationContext(AppConfigForLazy.class);
 
 	    var ctx = new AnnotationConfigApplicationContext();
-        ctx.scan("app.demo.bean");
+
+		ctx.scan("app.demo.bean");   
 
 		System.out.println("After ctx.scan executed ................................");
         
+		for (String beanName : ctx.getBeanDefinitionNames()) {
+            System.out.println(beanName);
+        }
+
+
 		ctx.refresh();
 /* 
 			Customer customer = ctx.getBean(Customer.class);

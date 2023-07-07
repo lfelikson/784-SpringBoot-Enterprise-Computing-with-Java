@@ -11,3 +11,4 @@ public class XMLConfigApp {
         SpringApplication.run(XMLConfigApp.class, args).close();
     }
 }
+

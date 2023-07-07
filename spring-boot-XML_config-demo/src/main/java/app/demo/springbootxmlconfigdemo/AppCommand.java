@@ -1,4 +1,4 @@
-package app.demo.springbootxmlconfigdemo;;
+package app.demo.springbootxmlconfigdemo;
 
 import app.demo.Hello;
 import org.springframework.boot.CommandLineRunner;

@@ -1,5 +1,0 @@
-package app.consumer;
-
-public interface Consumer {
-	void processMessages(String msg, String dest);
-}
