@@ -3,9 +3,6 @@ package app.demo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
-
-// import com.apple.eawt.Application;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
@@ -19,10 +16,8 @@ import java.util.Arrays;
 public class PropertyProfileApp {
     public static final void main(String...args) {
 
-        //        SpringApplication.run(PropertyProfileApp.class, args).close();
-
         new SpringApplicationBuilder(PropertyProfileApp.class)
-//                .profiles("west")
+                .profiles("north")
                 .run(args).close();
 
     }        
@@ -40,12 +35,9 @@ class ProfileManager implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-
         System.out.println("*************" + "\n" + "Message: " + message);
-
         System.out.println("From ProfileManager,current active profiles are: " +
                 Arrays.toString(environment.getActiveProfiles()) + "\n" + "*************");
-    
             }
 }
 
@@ -55,7 +47,6 @@ class BeanEast implements CommandLineRunner {
 
     @Value("${message}")
     private String message;
-
 
     @Override
     public void run(String... args) throws Exception {
@@ -69,9 +60,8 @@ class BeanEast implements CommandLineRunner {
 @Profile(value="west")
 class BeanWest implements CommandLineRunner {
 
-        @Value("${message}")
+    @Value("${message}")
     private String message;
-
 
     @Override
     public void run(String... args) throws Exception {
