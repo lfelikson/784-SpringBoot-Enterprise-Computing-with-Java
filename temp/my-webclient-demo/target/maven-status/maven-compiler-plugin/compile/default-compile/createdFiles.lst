@@ -1,0 +1,7 @@
+com/mycompany/SpringWebClientApplication.class
+com/mycompany/data/Data.class
+com/mycompany/data/Customer.class
+com/mycompany/controller/CustomWebClientController.class
+com/mycompany/data/Customers.class
+com/mycompany/client/CustomWebClient.class
+com/mycompany/data/Support.class

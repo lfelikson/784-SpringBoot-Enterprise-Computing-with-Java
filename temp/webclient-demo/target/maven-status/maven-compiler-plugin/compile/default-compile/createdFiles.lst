@@ -1,0 +1,6 @@
+com/mycompany/config/WebFluxConfig.class
+com/mycompany/controller/EmployeeController.class
+com/mycompany/service/EmployeeService.class
+com/mycompany/model/Employee.class
+com/mycompany/service/IEmployeeService.class
+com/mycompany/WebfluxFunctionalApp.class

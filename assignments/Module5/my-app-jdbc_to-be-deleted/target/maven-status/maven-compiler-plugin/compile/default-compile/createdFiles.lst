@@ -1,0 +1,4 @@
+com/mycompany/student/Student.class
+com/mycompany/SpringBoot2JdbcWithH2Application.class
+com/mycompany/student/StudentJdbcRepository$StudentRowMapper.class
+com/mycompany/student/StudentJdbcRepository.class
