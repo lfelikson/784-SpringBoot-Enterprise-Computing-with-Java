@@ -1,0 +1,13 @@
+com/baeldung/jpa/simple/repository/BookListRepository.class
+com/baeldung/jpa/simple/model/Foo.class
+com/baeldung/jpa/simple/config/PersistenceConfig.class
+com/baeldung/jpa/simple/service/IFooService.class
+com/baeldung/jpa/simple/model/Book.class
+com/baeldung/jpa/simple/service/FooService.class
+com/baeldung/jpa/simple/JpaApplication.class
+com/baeldung/jpa/simple/model/User.class
+com/baeldung/jpa/simple/repository/UserRepository.class
+com/baeldung/jpa/simple/repository/IFooDAO.class
+com/baeldung/jpa/simple/repository/UserRepositoryCustom.class
+com/baeldung/jpa/simple/repository/UserRepositoryCustomImpl.class
+com/baeldung/jpa/simple/repository/BookPagingAndSortingRepository.class

@@ -1,0 +1,13 @@
+/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/temp/spring-data-jpa-simple/src/main/java/com/baeldung/jpa/simple/service/FooService.java
+/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/temp/spring-data-jpa-simple/src/main/java/com/baeldung/jpa/simple/service/IFooService.java
+/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/temp/spring-data-jpa-simple/src/main/java/com/baeldung/jpa/simple/model/User.java
+/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/temp/spring-data-jpa-simple/src/main/java/com/baeldung/jpa/simple/repository/UserRepositoryCustomImpl.java
+/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/temp/spring-data-jpa-simple/src/main/java/com/baeldung/jpa/simple/model/Book.java
+/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/temp/spring-data-jpa-simple/src/main/java/com/baeldung/jpa/simple/model/Foo.java
+/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/temp/spring-data-jpa-simple/src/main/java/com/baeldung/jpa/simple/repository/UserRepository.java
+/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/temp/spring-data-jpa-simple/src/main/java/com/baeldung/jpa/simple/repository/BookPagingAndSortingRepository.java
+/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/temp/spring-data-jpa-simple/src/main/java/com/baeldung/jpa/simple/repository/IFooDAO.java
+/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/temp/spring-data-jpa-simple/src/main/java/com/baeldung/jpa/simple/config/PersistenceConfig.java
+/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/temp/spring-data-jpa-simple/src/main/java/com/baeldung/jpa/simple/repository/BookListRepository.java
+/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/temp/spring-data-jpa-simple/src/main/java/com/baeldung/jpa/simple/repository/UserRepositoryCustom.java
+/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/temp/spring-data-jpa-simple/src/main/java/com/baeldung/JpaApplication.java

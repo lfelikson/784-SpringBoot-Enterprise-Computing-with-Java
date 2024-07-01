@@ -15,17 +15,17 @@ public class Course {
             strategy = GenerationType.SEQUENCE,
             generator = "course_id_seq"
     )
-    private int id;
+    private int id;             // int id as a unique entity Course identifyer       
 
     @Column(
             nullable = false
     )
-    private String name;
+    private String name;        // String name as an entity Course property
 
     @Column(
             name = "Program_Name"
     )
-    private String program;
+    private String program;      // String program as an entity Course property
 
     public Course (String name, String program) {
         this.name = name;

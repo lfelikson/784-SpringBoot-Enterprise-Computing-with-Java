@@ -8,7 +8,7 @@
 
  <persistence-unit name="testPersistenceUnit" transaction-type="RESOURCE_LOCAL">
   <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-<class>com.mycompany.Student</class>
+  <class>com.mycompany.Student</class>
   <exclude-unlisted-classes>false</exclude-unlisted-classes>
   <properties>
 

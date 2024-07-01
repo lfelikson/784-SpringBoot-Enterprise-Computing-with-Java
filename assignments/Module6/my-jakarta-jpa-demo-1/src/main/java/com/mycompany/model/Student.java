@@ -2,6 +2,7 @@ package com.mycompany.model;
 import jakarta.persistence.*;
 
 @Entity
+@Table(name="REGISTERED_STUDENTS")
 public class Student {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
