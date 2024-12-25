@@ -1,0 +1,8 @@
+/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/temp/spring-boot-mongodb-crud/src/main/java/com/howtodoinjava/app/App.java
+/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/temp/spring-boot-mongodb-crud/src/main/java/com/howtodoinjava/app/config/MongoConfig.java
+/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/temp/spring-boot-mongodb-crud/src/main/java/com/howtodoinjava/app/model/Item.java
+/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/temp/spring-boot-mongodb-crud/src/main/java/com/howtodoinjava/app/repositories/ItemRepository.java
+/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/temp/spring-boot-mongodb-crud/src/main/java/com/howtodoinjava/app/service/MongoRepositoryService.java
+/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/temp/spring-boot-mongodb-crud/src/main/java/com/howtodoinjava/app/service/MongoTemplateService.java
+/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/temp/spring-boot-mongodb-crud/src/main/java/com/howtodoinjava/app/service/impl/MongoRepositoryServiceImpl.java
+/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/temp/spring-boot-mongodb-crud/src/main/java/com/howtodoinjava/app/service/impl/MongoTemplateServiceImpl.java
