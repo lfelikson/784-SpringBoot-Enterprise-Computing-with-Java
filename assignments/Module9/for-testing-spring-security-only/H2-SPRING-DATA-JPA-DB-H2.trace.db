@@ -1,0 +1,144 @@
+2025-01-18 14:45:17 database: wrong user or password; user: ""
+org.h2.message.DbException: Wrong user name or password [28000-197]
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.message.DbException.get(DbException.java:144)
+	at org.h2.engine.Engine.openSession(Engine.java:107)
+	at org.h2.engine.Engine.openSession(Engine.java:179)
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:157)
+	at org.h2.engine.Engine.createSession(Engine.java:140)
+	at org.h2.engine.Engine.createSession(Engine.java:28)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:351)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:124)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:103)
+	at org.h2.Driver.connect(Driver.java:69)
+	at org.h2.server.web.WebServer.getConnection(WebServer.java:733)
+	at org.h2.server.web.WebApp.login(WebApp.java:954)
+	at org.h2.server.web.WebApp.process(WebApp.java:211)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:170)
+	at org.h2.server.web.WebThread.process(WebThread.java:134)
+	at org.h2.server.web.WebThread.run(WebThread.java:90)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.h2.jdbc.JdbcSQLException: Wrong user name or password [28000-197]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:357)
+	... 19 more
+2025-02-09 11:31:58 database: wrong user or password; user: "SA"
+org.h2.message.DbException: Wrong user name or password [28000-197]
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.message.DbException.get(DbException.java:144)
+	at org.h2.engine.Engine.openSession(Engine.java:107)
+	at org.h2.engine.Engine.openSession(Engine.java:179)
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:157)
+	at org.h2.engine.Engine.createSession(Engine.java:140)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:155)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.h2.jdbc.JdbcSQLException: Wrong user name or password [28000-197]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:357)
+	... 9 more
+2025-02-09 12:10:22.339000-05:00 database: flush
+org.h2.message.DbException: General error: "org.h2.mvstore.MVStoreException: The write format 1 is smaller than the supported format 3 [2.2.224/5]" [50000-224]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.message.DbException.convert(DbException.java:407)
+	at org.h2.mvstore.db.Store.lambda$new$0(Store.java:122)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:1546)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:371)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:291)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:175)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: General error: "org.h2.mvstore.MVStoreException: The write format 1 is smaller than the supported format 3 [2.2.224/5]" [50000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 14 more
+Caused by: org.h2.mvstore.MVStoreException: The write format 1 is smaller than the supported format 3 [2.2.224/5]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.FileStore.getUnsupportedWriteFormatException(FileStore.java:943)
+	at org.h2.mvstore.FileStore.processCommonHeaderAttributes(FileStore.java:547)
+	at org.h2.mvstore.RandomAccessStore.readStoreHeader(RandomAccessStore.java:227)
+	at org.h2.mvstore.FileStore.start(FileStore.java:916)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:289)
+	... 8 more
+2025-02-09 12:10:22.343000-05:00 database: opening /Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/assignments/Module9/for-testing-spring-security-only/H2-SPRING-DATA-JPA-DB-H2
+org.h2.message.DbException: Unsupported database file version or invalid file header in file "/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/assignments/Module9/for-testing-spring-security-only/H2-SPRING-DATA-JPA-DB-H2.mv.db" [90048-224]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.mvstore.db.Store.convertMVStoreException(Store.java:158)
+	at org.h2.mvstore.db.Store.<init>(Store.java:142)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:175)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Unsupported database file version or invalid file header in file "/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/assignments/Module9/for-testing-spring-security-only/H2-SPRING-DATA-JPA-DB-H2.mv.db" [90048-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:690)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 9 more
+Caused by: org.h2.mvstore.MVStoreException: The write format 1 is smaller than the supported format 3 [2.2.224/5]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.FileStore.getUnsupportedWriteFormatException(FileStore.java:943)
+	at org.h2.mvstore.FileStore.processCommonHeaderAttributes(FileStore.java:547)
+	at org.h2.mvstore.RandomAccessStore.readStoreHeader(RandomAccessStore.java:227)
+	at org.h2.mvstore.FileStore.start(FileStore.java:916)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:289)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	... 6 more
+2025-02-09 12:10:42.169000-05:00 database: flush
+org.h2.message.DbException: General error: "org.h2.mvstore.MVStoreException: The write format 1 is smaller than the supported format 3 [2.2.224/5]" [50000-224]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.message.DbException.convert(DbException.java:407)
+	at org.h2.mvstore.db.Store.lambda$new$0(Store.java:122)
+	at org.h2.mvstore.MVStore.handleException(MVStore.java:1546)
+	at org.h2.mvstore.MVStore.panic(MVStore.java:371)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:291)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:175)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientException: General error: "org.h2.mvstore.MVStoreException: The write format 1 is smaller than the supported format 3 [2.2.224/5]" [50000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 14 more
+Caused by: org.h2.mvstore.MVStoreException: The write format 1 is smaller than the supported format 3 [2.2.224/5]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.FileStore.getUnsupportedWriteFormatException(FileStore.java:943)
+	at org.h2.mvstore.FileStore.processCommonHeaderAttributes(FileStore.java:547)
+	at org.h2.mvstore.RandomAccessStore.readStoreHeader(RandomAccessStore.java:227)
+	at org.h2.mvstore.FileStore.start(FileStore.java:916)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:289)
+	... 8 more
+2025-02-09 12:10:42.175000-05:00 database: opening /Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/assignments/Module9/for-testing-spring-security-only/H2-SPRING-DATA-JPA-DB-H2
+org.h2.message.DbException: Unsupported database file version or invalid file header in file "/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/assignments/Module9/for-testing-spring-security-only/H2-SPRING-DATA-JPA-DB-H2.mv.db" [90048-224]
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.mvstore.db.Store.convertMVStoreException(Store.java:158)
+	at org.h2.mvstore.db.Store.<init>(Store.java:142)
+	at org.h2.engine.Database.<init>(Database.java:326)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.server.TcpServerThread.run(TcpServerThread.java:175)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Unsupported database file version or invalid file header in file "/Users/leonidfelikson/605784_development/784-SpringBoot-Enterprise-Computing-with-Java/assignments/Module9/for-testing-spring-security-only/H2-SPRING-DATA-JPA-DB-H2.mv.db" [90048-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:690)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 9 more
+Caused by: org.h2.mvstore.MVStoreException: The write format 1 is smaller than the supported format 3 [2.2.224/5]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:996)
+	at org.h2.mvstore.FileStore.getUnsupportedWriteFormatException(FileStore.java:943)
+	at org.h2.mvstore.FileStore.processCommonHeaderAttributes(FileStore.java:547)
+	at org.h2.mvstore.RandomAccessStore.readStoreHeader(RandomAccessStore.java:227)
+	at org.h2.mvstore.FileStore.start(FileStore.java:916)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:289)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2035)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	... 6 more

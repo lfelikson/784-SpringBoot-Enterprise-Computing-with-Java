@@ -38,10 +38,18 @@ public class StudentController {
     @Autowired
     MongoTemplate mongoTemplate;
 
+    /* 
     @Autowired
     public StudentController (StudentRepository studentRepository, StudentDAL studentDAL) {
-	this.studentRepository = studentRepository;
+    this.studentRepository = studentRepository;
 	this.studentDAL = studentDAL;
+    }
+    */
+
+     /* @Autowired   */
+    public StudentController( StudentDAL studentDAL) {
+	this.studentDAL = studentDAL;
+            System.out.println("+++++++++++++++++++++ NEW StudentController CONSTRUCTOR *****************");
     }
 
     @GetMapping("/getStudents")
